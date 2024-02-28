@@ -1,0 +1,13 @@
+prefix=/Users/ravitejachippala/Desktop/GenAI/transactionClassifier/transaction
+exec_prefix=/Users/ravitejachippala/Desktop/GenAI/transactionClassifier/transaction
+libdir=/Users/ravitejachippala/Desktop/GenAI/transactionClassifier/transaction/lib
+sharedlibdir=/Users/ravitejachippala/Desktop/GenAI/transactionClassifier/transaction/lib
+includedir=/Users/ravitejachippala/Desktop/GenAI/transactionClassifier/transaction/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.13
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}
